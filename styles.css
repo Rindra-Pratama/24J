@@ -1,4 +1,4 @@
-/* General reset */
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     overflow: hidden;
 }
 
-/* Confetti effect */
+
 .confetti {
     position: absolute;
     top: 0;
@@ -22,7 +22,7 @@ body {
     z-index: -1;
 }
 
-/* Container */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body {
     height: 100vh;
 }
 
-/* Title and paragraph */
+
 h1 {
     font-size: 3.5rem;
     font-weight: bold;
@@ -45,7 +45,7 @@ p {
     margin: 0.5rem 0 1.5rem;
 }
 
-/* Button */
+
 .party-button {
     background: #007BFF;
     color: #fff;
@@ -63,7 +63,7 @@ p {
     transform: scale(1.1);
 }
 
-/* Balloons */
+
 .balloons {
     display: flex;
     gap: 10px;
@@ -101,14 +101,14 @@ p {
     transform: translateX(-50%);
 }
 
-/* Stars */
+
 .stars {
     font-size: 2rem;
     margin-top: 20px;
     animation: sparkle 2s infinite ease-in-out;
 }
 
-/* Keyframes */
+
 @keyframes confettiFall {
     0% {
         background-position: 0 0;
@@ -145,7 +145,7 @@ p {
     }
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 2.5rem;
@@ -164,7 +164,7 @@ p {
         font-size: 1rem;
     }
 }
-/* Friendship container */
+
 .friendship-container {
     display: flex;
     flex-direction: column;
@@ -189,7 +189,7 @@ p {
     margin-bottom: 1.5rem;
 }
 
-/* Back button */
+
 .back-button {
     background: #1E90FF;
     color: #fff;
@@ -207,7 +207,7 @@ p {
     background: #007BFF;
     transform: scale(1.1);
 }
-/* Buttons container */
+
 .buttons {
     display: flex;
     gap: 15px;
@@ -215,7 +215,7 @@ p {
     margin-top: 20px;
 }
 
-/* Home button */
+
 .home-button {
     background: #00BFFF;
     color: #fff;
